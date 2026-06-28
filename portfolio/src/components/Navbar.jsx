@@ -12,7 +12,7 @@ export default function Navbar() {
       animate={{ y: 0 }}
       transition={{ duration: 0.5 }}
     >
-      <div className="container m-2 mx-auto">
+      <div className="container m-2 mx-auto flex justify-between items-center">
         <div>
           <a href="#" className="text-3xl font-bold text-white">
             Archana
@@ -21,7 +21,8 @@ export default function Navbar() {
           </a>
         </div>
 
-        <div className="hidden md:flex space-x-10  justify-between items-center">
+       <div className="hidden md:flex space-x-10 gap-8">
+        
           <a
             href="#home"
             className="relative text-white/80 transition duration-300 hover:text-purple group"
@@ -65,6 +66,7 @@ export default function Navbar() {
             <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-purple transition-all duration-300 group-hover:w-full"></span>
           </a>
         </div>
+       </div>
         <div className="md:hidden">
           {showMenu ? (
             <FaXmark
@@ -78,7 +80,7 @@ export default function Navbar() {
             />
           )}
         </div>
-      </div>
+     
       {showMenu && (
         <div className="md:hidden mt-4 bg-dark-300 h-screen rounded-lg p-4 flex flex-col space-y-4 text-center justify-cente">
           <a
