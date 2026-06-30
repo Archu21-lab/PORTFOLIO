@@ -1,5 +1,5 @@
 import React from "react";
-import { easeOut, motion } from "framer-motion";
+import { easeInOut, easeOut, motion } from "framer-motion";
 import { assets } from "../assets/assets";
 
 export default function Hero() {
@@ -39,13 +39,23 @@ export default function Hero() {
               Contact Me
             </a>
           </div>
-         
         </div>
         {/* right side content  */}
         <div className="md:w-1/2 flex justify-center">
           <div className="relative w-64 h-64 md:w-80 md:h-80">
-            <div className="absolute inset-0 rounded-full bg-gradient-to-r from-purple to-pink animate-pluse-slow-opacity-70">
-              <motion.img className="relative rounded-full w-64 h-64 md:w-80 md:h-80 object-cover z-10 animate-float" src={assets.MyImg1} alt="profile"/>
+            <div className="absolute inset-0 rounded-full bg-gradient-to-r from-purple to-pink opacity-70">
+              <motion.img
+                animate={{ y: [0, -20, 0] }}
+                transition={{
+                  duration: 4,
+                  repeat: Infinity,
+                  repeatType: "loop",
+                  ease: "easeInOut",
+                }}
+                className="relative rounded-full w-64 h-64 md:w-80 md:h-80 object-cover z-10 animate-float"
+                src={assets.MyImg1}
+                alt="profile"
+              />
             </div>
           </div>
         </div>
