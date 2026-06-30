@@ -15,17 +15,17 @@ export default function Hero() {
       <div className="container mx-auto px-6 flex flex-col md:flex-row items-center justify-between">
         {/* left side content */}
         <div className="md:w-1/2 mb:10 md:mb-0">
-          <h1 className="text-4xl md:text-6xl font-bold mb-8">
+          <h1 className="text-4xl md:text-6xl font-bold mb-8 padding-2">
             Hi, I'm <span className="text-purple">Archana Patil</span>
           </h1>
-          <h2 className="text-2xl md:text-4xl font-semibold mb-8 typewriter">
+          <h2 className="text-2xl md:text-4xl font-semibold mb-8 typewriter padding-2">
             Full Stack Developer
           </h2>
-          <p className="text-lg text-gray-300 mb-12">
+          <p className="text-lg text-gray-300 mb-12 padding-2">
             I create stunning web experiences with modern technologies and
             innovative design
           </p>
-          <div className="flex gap-6">
+          <div className="flex gap-6 padding-2">
             <a
               href="#projects"
               className="w-36 h-12 px-6 flex items-center justify-center py-3 bg-purple rounded-lg font-medium hover:bg-purple-700 transition duration-300"

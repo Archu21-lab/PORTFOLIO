@@ -44,7 +44,7 @@ export default function About() {
           <div className="rounded-2xl p-8">
             <h3 className="text-2xl font-semibold mb-6 padding-2">My Journey</h3>
             <p className="text-gray-300 mb-6 padding-2">
-              I'm a passionate full-stack developer with over 5 years of
+              I'm a passionate full-stack developer with over 1 years of
               experience creating digital solutions for businesses around the
               world. My journey started with basic HTML/CSS websites and has
               evolved into building complex web applications with modern
