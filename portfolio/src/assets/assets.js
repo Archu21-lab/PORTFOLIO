@@ -10,13 +10,14 @@ import {
 } from "react-icons/fa";
 
 import MyImg1 from "../assets/MyImg-1.jpeg";
+import MyImg2 from "../assets/MyImg-2.jpeg";
 import Project1 from "../assets/Project-1.png";
 import Project2 from "../assets/Project-2.png";
 import Project3 from "../assets/Project-3.png";
 import Project4 from "../assets/Project-4.avif";
 
 export const assets = {
-   MyImg1,
+   MyImg1,MyImg2
 }
 
 export const aboutInfo =[
