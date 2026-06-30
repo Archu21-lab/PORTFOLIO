@@ -15,6 +15,7 @@ import Project1 from "../assets/Project-1.png";
 import Project2 from "../assets/Project-2.png";
 import Project3 from "../assets/Project-3.png";
 import Project4 from "../assets/Project-4.avif";
+import ProjectPortfolio from "../assets/ProjectPortfolio.png"
 
 export const assets = {
    MyImg1,MyImg2
@@ -84,28 +85,28 @@ export const skills = [
 
 export const projects = [
   {
-    title: "E-Commerce Platform",
-    description: "A full-featured online store with shopping cart, user authentication, and payment processing.",
+    title: "Daily Notes App",
+    description: "Structure Your Thoughts By Daily Notes.",
     image: Project1,
-    tech: ["React", "Node.js", "MongoDB", "Stripe"],
+    tech: ["HTML", "CSS", "JS", "React"],
     icons: [FaReact, FaNodeJs, FaDatabase , FaStripe],
     demo: "#",
     code: "#",
   },
   {
-    title: "Task Management App",
+    title: "Student Registration Form",
     description: "A productivity application with drag-and-drop functionality and real-time updates.",
     image: Project2,
-    tech: ["Vue.js", "Firebase", "Tailwind CSS", "WebSockets"],
+    tech: ["HTML", "JS", "Tailwind CSS", "React"],
     icons: [FaVuejs, FaFire, FaCloud , FaDatabase],
     demo: "#",
     code: "#",
   },
   {
-    title: "Fitness Tracker",
-    description: "A mobile app for tracking workouts, nutrition, and health metrics.",
+    title: "E-Commerce Platform",
+    description: "A full-featured online store with shopping cart, user authentication, and payment processing.",
     image: Project3,
-    tech: ["React Native", "GraphQL", "MySQL", "Chart.js"],
+    tech: ["HTML", "CSS", "JS", "React"],
     icons: [FaReact, FaDatabase],
     demo: "#",
     code: "#",
@@ -113,7 +114,7 @@ export const projects = [
   {
     title: "Portfolio Website",
     description: "A personal portfolio to showcase projects, skills, and blogs with dark/light mode support.",
-    image: Project4,
+    image: ProjectPortfolio,
     tech: ["Next.js", "Tailwind CSS", "Framer Motion", "Markdown"],
     icons: [FaReact, FaCloud],
     demo: "#",
