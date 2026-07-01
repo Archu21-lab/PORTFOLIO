@@ -3,12 +3,18 @@ import Hero from "../components/Hero";
 import About from "../components/About";
 import Skills from "../components/Skills";
 import Project from "../components/Project";
+import Work from "../components/Work";
+import Contact from "../components/Contact";
 
 export default function Home() {
-  return <div>
-    <Hero/>
-    <About/>
-    <Skills/>
-    <Project/>
-  </div>;
+  return (
+    <div>
+      <Hero />
+      <About />
+      <Skills />
+      <Project />
+      <Work />
+      <Contact/>
+    </div>
+  );
 }

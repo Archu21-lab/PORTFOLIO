@@ -61,24 +61,24 @@ export const skills = [
     description: 'Designing and optimizing databases for performance and scalability.',
     tags: ['MongoDB', 'PostgreSQL', 'MySQL', 'Firebase']
   },
-  {
-    title: 'Mobile Development',
-    icon: FaMobileAlt,
-    description: 'Building cross-platform mobile applications with modern tools.',
-    tags: ['React Native', 'Flutter', 'Ionic', 'Swift']
-  },
-  {
-    title: 'Cloud & DevOps',
-    icon: FaCloud,
-    description: 'Deploying and managing applications in cloud environments.',
-    tags: ['AWS', 'Docker', 'Kubernetes', 'CI/CD']
-  },
-  {
-    title: 'Tools & Technologies',
-    icon: FaTools,
-    description: 'Essential tools and technologies I use in my development workflow.',
-    tags: ['Git & GitHub', 'Webpack', 'Figma', 'Jest']
-  }
+  // {
+  //   title: 'Mobile Development',
+  //   icon: FaMobileAlt,
+  //   description: 'Building cross-platform mobile applications with modern tools.',
+  //   tags: ['React Native', 'Flutter', 'Ionic', 'Swift']
+  // },
+  // {
+  //   title: 'Cloud & DevOps',
+  //   icon: FaCloud,
+  //   description: 'Deploying and managing applications in cloud environments.',
+  //   tags: ['AWS', 'Docker', 'Kubernetes', 'CI/CD']
+  // },
+  // {
+  //   title: 'Tools & Technologies',
+  //   icon: FaTools,
+  //   description: 'Essential tools and technologies I use in my development workflow.',
+  //   tags: ['Git & GitHub', 'Webpack', 'Figma', 'Jest']
+  // }
 ];
 
 
@@ -120,50 +120,36 @@ export const projects = [
     demo: "#",
     code: "#",
   },
-  {
-    title: "Chat App",
-    description: "A real-time chat application with group messaging, emojis, and file sharing.",
-    image: Project2,
-    tech: ["Socket.IO", "React", "Node.js", "MongoDB"],
-    icons: [FaReact, FaNodeJs, FaDatabase ],
-    demo: "#",
-    code: "#",
-  },
-  {
-    title: "AI Image Generator",
-    description: "Generate images using AI prompts powered by OpenAI's DALL·E model and Cloudinary.",
-    image: Project4,
-    tech: ["React", "OpenAI API", "Cloudinary", "Tailwind CSS"],
-    icons: [FaRobot, FaReact, FaCloud],
-    demo: "#",
-    code: "#",
-  }
+  // {
+  //   title: "Chat App",
+  //   description: "A real-time chat application with group messaging, emojis, and file sharing.",
+  //   image: Project2,
+  //   tech: ["Socket.IO", "React", "Node.js", "MongoDB"],
+  //   icons: [FaReact, FaNodeJs, FaDatabase ],
+  //   demo: "#",
+  //   code: "#",
+  // },
+  // {
+  //   title: "AI Image Generator",
+  //   description: "Generate images using AI prompts powered by OpenAI's DALL·E model and Cloudinary.",
+  //   image: Project4,
+  //   tech: ["React", "OpenAI API", "Cloudinary", "Tailwind CSS"],
+  //   icons: [FaRobot, FaReact, FaCloud],
+  //   demo: "#",
+  //   code: "#",
+  // }
 ];
 
 
 export const workData = [
-  {
-    role: "Senior Frontend Developer",
-    company: "TechCorp Inc.",
-    duration: "2020 - Present",
-    description:
-      "Leading frontend development for enterprise clients, implementing modern frameworks, and mentoring junior developers.",
-    color: "purple"
-  },
+  
   {
     role: "Web Developer",
-    company: "Digital Solutions LLC",
-    duration: "2018 - 2020",
+    learning: "Red & White Skill Education",
+    duration: "2025 - 2026",
     description:
-      "Developed and maintained web applications for various clients, focusing on responsive design and performance optimization.",
+      "Developed web applications , focusing on responsive design and performance optimization.",
     color: "pink"
   },
-  {
-    role: "Junior Developer",
-    company: "StartUp Ventures",
-    duration: "2016 - 2018",
-    description:
-      "Started my career building basic websites and gradually took on more complex projects as I expanded my skill set.",
-    color: "blue"
-  }
+  
 ];

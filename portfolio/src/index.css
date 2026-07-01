@@ -87,6 +87,8 @@ body{
 .padding-6 { padding: 24px; }
 .mabo-4 { margin-bottom: 16px; }
 .margin-1 { margin: 4px; }
+.margin-8 { margin: 32px; }
+.padding-8 { padding: 32px; }
 /* 
 .m-0 { margin: 0; }
 
@@ -95,7 +97,7 @@ body{
 .m-4 { margin: 16px; }
 .m-5 { margin: 20px; }
 .m-6 { margin: 24px; }
-.m-8 { margin: 32px; }
+
 .m-10 { margin: 40px; }
 
 
@@ -132,7 +134,7 @@ body{
 .p-2 { padding: 8px; }
 .p-4 { padding: 16px; }
 
-.p-8 { padding: 32px; }
+
 .p-10 { padding: 40px; }
 
 
